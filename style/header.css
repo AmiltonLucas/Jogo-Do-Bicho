@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 1.6rem 1.6rem 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.box-Menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff4;
+  animation: slideTopDown 1s;
+}
+
+.image-Logo {
+  width: 4.8rem;
+}
+
+.image-Logo img {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  font-size: clamp(0.9rem, 2.5vw, 2rem);
+  white-space: nowrap;
+  text-shadow: 1px 1px 1px #0002;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+nav a:hover {
+  background: #fff2;
+}
+
+.container-Slogan {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box-Slogan {
+  max-width: 32rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1.6rem;
+}
+
+.box-Slogan h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px #0002;
+  animation: typing 3s 1s steps(25) both;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.box-Slogan p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px #0002;
+  animation: fadeIn 1s;
+}
+
+.image-banner-slogan {
+    width: 100%;
+}
+
+.image-banner-slogan img {
+    width: 102%;
+    height: 70rem;
+    top: 0;
+    position: absolute;
+    left: -3rem;
+    z-index: -1;
+}
